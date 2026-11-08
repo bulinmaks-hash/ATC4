@@ -1,0 +1,12 @@
+# Keep text files portable and Windows launch scripts usable.
+* text=auto
+*.rs text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.md text eol=lf
+*.wgsl text eol=lf
+*.sh text eol=lf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.ps1 text eol=crlf

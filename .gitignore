@@ -1,0 +1,60 @@
+# Local toolchains, dependencies, and editor state
+/.vendor/
+.vs/
+.idea/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Build outputs and local deliveries
+target/
+bin/
+obj/
+/dist/
+/releases/
+/install/
+/ДЛЯ_ПЕРЕДАЧИ/
+*.exe
+*.dll
+*.pdb
+*.obj
+*.o
+*.rlib
+*.rmeta
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+
+# Original game resources and downloaded third-party packages stay local
+/runtime/
+/sources/
+/a4_*/
+/IL-78/
+
+# Generated previews, terrain cache, and runtime diagnostics
+captures/
+/prototypes/atc-next/geodata/
+/prototypes/atc-next/assets/cache/
+last-error.txt
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Local credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.pfx
+*.p12
+Thumbs.db
+Desktop.ini
+.DS_Store
